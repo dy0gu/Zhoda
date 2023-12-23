@@ -2,7 +2,7 @@
 
 ![logo](logo.png)
 
-Zhoda aims to maintain simplicity and efficiency in the TCP protocol implementation, while also providing a high level of customizability. Cross-platform support is also a priority.
+Zhoda aims to maintain simplicity and efficiency in its TCP implementation, while also providing a high level of customizability. Cross-platform support is also a priority.
 
 ## Installation 🛠️
 
