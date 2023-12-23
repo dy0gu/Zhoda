@@ -28,7 +28,7 @@ fn main() {
     let mut stream = match TcpStream::connect(address) {
         Ok(stream) => {
             println!(
-                "Suceessfully connected to {}, input will now be sent",
+                "Suceessfully connected to {}, user input will now be sent",
                 address
             );
             stream
