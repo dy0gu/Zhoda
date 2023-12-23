@@ -27,10 +27,7 @@ fn main() {
     // Connect to the server
     let mut stream = match TcpStream::connect(address) {
         Ok(stream) => {
-            println!(
-                "Suceessfully connected to {}, user input will now be sent",
-                address
-            );
+            println!("User input being sent to {}", address);
             stream
         }
         Err(e) => match e.kind() {
